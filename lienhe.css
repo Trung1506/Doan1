@@ -47,7 +47,7 @@ ul li a:hover {
   justify-items: center;
   align-items: center;
   color: white;
-  background-image: url(../image/premium_photo-1670659359754-02934f07580f.avif);
+  background-image: url(./premium_photo-1670659359754-02934f07580f.avif);
   background-size: cover;
   min-height: 100px;
 }
