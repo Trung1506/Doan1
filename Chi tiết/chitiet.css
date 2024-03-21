@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-size: 17px;
+  background-color: rgb(95, 159, 242);
+  margin-top: 0px;
+  margin-left: 0px;
+  align-items: center;
+  width: 100%;
+  display: flex;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  transition: 0.5 ease;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: black;
+}
+
+.anh {
+  display: inline-block;
+  width: 120px;
+  height: 80px;
+}
+
+.nen {
+  background-image: url(../image/premium_photo-1670659359754-02934f07580f.avif);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.tieude {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 30px;
+  font-size: 30px;
+  font-style: italic;
+  color: brown;
+}
+
+.phanthan {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 50px;
+  padding: 100px 150px;
+}
+
+.block_item {
+  max-width: 300px;
+  border-radius: 20px;
+  border: 1px solid #4360ed9d;
+  overflow: hidden;
+  height: max-content;
+}
+
+.img {
+  width: 300px;
+  height: 172px;
+  border-radius: 12px 12px 0px 0px; /* thông số bo viền */
+  object-fit: cover;
+}
+
+.block_body {
+  padding: 18px 22px;
+}
+
+.Tieude_body {
+  font-style: italic;
+  color: rgb(211, 64, 64);
+  margin-bottom: 10px;
+}
+
+.Noidung_body {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+.GITHUB a {
+  font-size: 30px;
+  color: black;
+}
+
+.GITHUB a:hover {
+  color: #f3556a;
+}
