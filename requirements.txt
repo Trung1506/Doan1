@@ -1,7 +1,0 @@
-streamlit
-PyPDF2
-dotenv
-os
-langchain
-langchain_community.vectorstores
-openai
